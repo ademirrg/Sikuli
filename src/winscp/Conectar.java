@@ -8,8 +8,9 @@ public class Conectar {
 	
 	public static void main(String[] args) throws FindFailed {
 		
+		Screen tela = new Screen();
+		
 		try {
-			Screen tela = new Screen();
 			
 			//Conecta na VPN
 			Pattern vpn1 = new Pattern("C:\\Sikuli\\VPN\\1.PNG");
@@ -22,7 +23,7 @@ public class Conectar {
 			tela.click(vpn4);
 			Pattern vpn5 = new Pattern("C:\\Sikuli\\VPN\\5.PNG");
 			tela.click(vpn5);
-			Pattern vpn6 = new Pattern("C:\\Sikuli\\VPN\\8.PNG");
+			Pattern vpn6 = new Pattern("C:\\Sikuli\\VPN\\6.PNG");
 			Thread.sleep(2000L);
 			tela.click(vpn6);
 			
@@ -34,31 +35,30 @@ public class Conectar {
 			Thread.sleep(5000L);
 			tela.type("ellow08" + Key.ENTER);
 			Thread.sleep(4000L);
-			Pattern win4 = new Pattern("C:\\Sikuli\\WinSCP\\4.PNG");
-			tela.click(win4);
-			Pattern win5 = new Pattern("C:\\Sikuli\\WinSCP\\5.PNG");
-			tela.click(win5);
+			tela.type("p", Key.CTRL);
+			Pattern win3 = new Pattern("C:\\Sikuli\\WinSCP\\3.PNG");
+			tela.click(win3);
 			Thread.sleep(4000L);
 			tela.type("ellow08" + Key.ENTER);
 			Thread.sleep(3000L);
 			tela.type("tail -f " + Key.DIVIDE + "log_jboss" + Key.DIVIDE + "sigms" + Key.DIVIDE + Key.TAB + Key.ENTER);
-			Pattern win6 = new Pattern("C:\\Sikuli\\WinSCP\\6.PNG");
-			tela.click(win6);
-			Pattern win7 = new Pattern("C:\\Sikuli\\WinSCP\\7.PNG");
-			tela.click(win7);
-			Pattern win8 = new Pattern("C:\\Sikuli\\WinSCP\\8.PNG");
-			tela.doubleClick(win8);
+			Pattern win4 = new Pattern("C:\\Sikuli\\WinSCP\\4.PNG");
+			tela.click(win4);
+			tela.type("n", Key.CTRL);
+			Pattern win5 = new Pattern("C:\\Sikuli\\WinSCP\\5.PNG");
+			tela.doubleClick(win5);
 			Thread.sleep(5000L);
 			tela.type("ellow08" + Key.ENTER);
 			Thread.sleep(4000L);
-			Pattern win9 = new Pattern("C:\\Sikuli\\WinSCP\\4.PNG");
-			tela.click(win9);
-			Pattern win10 = new Pattern("C:\\Sikuli\\WinSCP\\5.PNG");
-			tela.click(win10);
+			tela.type("p", Key.CTRL);
+			Pattern win6 = new Pattern("C:\\Sikuli\\WinSCP\\3.PNG");
+			tela.click(win6);
 			Thread.sleep(4000L);
 			tela.type("ellow08" + Key.ENTER);
 			Thread.sleep(3000L);
 			tela.type("tail -f " + Key.DIVIDE + "log_jboss" + Key.DIVIDE + "sigms" + Key.DIVIDE + Key.TAB + Key.ENTER);	
+			Pattern win7 = new Pattern("C:\\Sikuli\\WinSCP\\7.PNG");
+			tela.click(win7);
 			
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
