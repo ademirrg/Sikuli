@@ -14,28 +14,48 @@ public class AberturaDia {
 		try {
 			
 			//Ajusta proxy
-			tela.type("r", Key.WIN);
-			tela.type("inetcpl.cpl" + Key.ENTER);
-			Pattern p1 = new Pattern("C:\\Sikuli\\BeginTheDay\\1.PNG");
-			tela.click(p1);
-			Pattern p2 = new Pattern("C:\\Sikuli\\BeginTheDay\\2.PNG");
-			tela.click(p2);
-			Pattern p3 = new Pattern("C:\\Sikuli\\BeginTheDay\\3.PNG");
-			tela.click(p3);
-			tela.type(Key.ENTER);
-			tela.type(Key.ESC);
+//			tela.type("r", Key.WIN);
+//			Thread.sleep(2000L);
+//			tela.type("inetcpl.cpl" + Key.ENTER);
+//			Pattern p1 = new Pattern("C:\\Sikuli\\BeginTheDay\\1.PNG");
+//			tela.click(p1);
+//			Pattern p2 = new Pattern("C:\\Sikuli\\BeginTheDay\\2.PNG");
+//			tela.click(p2);
+//			Pattern p3 = new Pattern("C:\\Sikuli\\BeginTheDay\\3.PNG");
+//			tela.click(p3);
+//			tela.type(Key.ENTER);
+//			tela.type(Key.ESC);
 			
-			//Abre Outlook
-			Pattern p4 = new Pattern("C:\\Sikuli\\BeginTheDay\\4.PNG");
-			tela.click(p4);
-			Thread.sleep(3000L);
-		
+			//Conecta na VPN
+			Pattern vpn1 = new Pattern("C:\\Sikuli\\VPN\\1.PNG");
+			tela.wait("C:\\Sikuli\\VPN\\1.PNG", 15000L);
+			tela.click(vpn1);
+			Pattern vpn2 = new Pattern("C:\\Sikuli\\VPN\\2.PNG");
+			tela.wait("C:\\Sikuli\\VPN\\2.PNG", 15000L);
+			tela.click(vpn2);
+			Pattern vpn3 = new Pattern("C:\\Sikuli\\VPN\\3.PNG");
+			tela.wait("C:\\Sikuli\\VPN\\3.PNG", 15000L);
+			tela.click(vpn3);
+			Pattern vpn4 = new Pattern("C:\\Sikuli\\VPN\\4.PNG");
+			tela.wait("C:\\Sikuli\\VPN\\4.PNG", 15000L);
+			tela.click(vpn4);
+			Pattern vpn5 = new Pattern("C:\\Sikuli\\VPN\\5.PNG");
+			tela.wait("C:\\Sikuli\\VPN\\5.PNG", 15000L);
+			tela.click(vpn5);
+			Pattern vpn6 = new Pattern("C:\\Sikuli\\VPN\\8.PNG");
+			Thread.sleep(2000L);
+			tela.click(vpn6);
 			
 			//Abre páginas no Chrome
 			Pattern p5 = new Pattern("C:\\Sikuli\\BeginTheDay\\5.PNG");
 			tela.click(p5);
 			Pattern p6 = new Pattern("C:\\Sikuli\\BeginTheDay\\6.PNG");
+			tela.wait("C:\\Sikuli\\BeginTheDay\\6.PNG", 15000L);
 			tela.click(p6);
+			Pattern p11 = new Pattern("C:\\Sikuli\\BeginTheDay\\11.PNG");
+			tela.wait("C:\\Sikuli\\BeginTheDay\\11.PNG", 15000L);
+			tela.click(p11);
+			Thread.sleep(1000L);
 			tela.type("t", Key.CTRL);
 			Pattern p7 = new Pattern("C:\\Sikuli\\BeginTheDay\\7.PNG");
 			tela.click(p7);
@@ -44,7 +64,26 @@ public class AberturaDia {
 			Pattern p8 = new Pattern("C:\\Sikuli\\BeginTheDay\\8.PNG");
 			tela.click(p8);
 			Pattern p9 = new Pattern("C:\\Sikuli\\BeginTheDay\\9.PNG");
+			tela.wait("C:\\Sikuli\\BeginTheDay\\9.PNG", 15000L);
 			tela.click(p9);
+			
+			//Abre Slack
+			tela.type("d", Key.WIN);
+			tela.type(Key.WIN);
+			Thread.sleep(1000L);
+			tela.type("slack");
+			Pattern p10 = new Pattern("C:\\Sikuli\\BeginTheDay\\10.PNG");
+			tela.wait("C:\\Sikuli\\BeginTheDay\\10.PNG", 15000L);
+			tela.click(p10);
+			Pattern p12 = new Pattern("C:\\Sikuli\\BeginTheDay\\12.PNG");
+			tela.wait("C:\\Sikuli\\BeginTheDay\\12.PNG", 15000L);
+			tela.click(p12);
+			tela.type("d", Key.WIN);
+			
+			//Abre Outlook
+			Pattern p4 = new Pattern("C:\\Sikuli\\BeginTheDay\\4.PNG");
+			tela.click(p4);
+			Thread.sleep(4000L);
 		
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
