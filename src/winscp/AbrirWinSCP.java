@@ -40,7 +40,7 @@ public class AbrirWinSCP {
 			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\WinSCP\\8.PNG", 15000L);
 			tela.type("ellow08" + Key.ENTER);
 			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\WinSCP\\11.PNG", 15000L);
-			Thread.sleep(1500L);
+			Thread.sleep(2000L);
 			tela.type("p", Key.CTRL);
 			Pattern win3 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\WinSCP\\3.PNG");
 			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\WinSCP\\3.PNG", 15000L);
@@ -58,7 +58,7 @@ public class AbrirWinSCP {
 			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\WinSCP\\8.PNG", 15000L);
 			tela.type("ellow08" + Key.ENTER);
 			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\WinSCP\\11.PNG", 15000L);
-			Thread.sleep(1500L);
+			Thread.sleep(2000L);
 			tela.type("p", Key.CTRL);
 			Pattern win6 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\WinSCP\\3.PNG");
 			tela.click(win6);
