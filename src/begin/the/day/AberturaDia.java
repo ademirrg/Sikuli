@@ -54,7 +54,7 @@ public class AberturaDia {
 			Pattern p11 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\11.PNG");
 			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\11.PNG", 15000L);
 			tela.click(p11);
-			Thread.sleep(1000L);
+			Thread.sleep(2000L);
 			tela.type("t", Key.CTRL);
 			Pattern p7 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\7.PNG");
 			tela.click(p7);
@@ -68,6 +68,7 @@ public class AberturaDia {
 			
 			//Abre Slack
 			tela.type("d", Key.WIN);
+			Thread.sleep(1000L);
 			tela.type(Key.WIN);
 			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\14.PNG", 15000L);
 			tela.type("slack");
