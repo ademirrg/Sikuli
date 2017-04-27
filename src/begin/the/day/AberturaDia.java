@@ -27,63 +27,61 @@ public class AberturaDia {
 //			tela.type(Key.ESC);
 			
 			//Conecta na VPN
-			Pattern vpn1 = new Pattern("C:\\Sikuli\\VPN\\1.PNG");
-			tela.wait("C:\\Sikuli\\VPN\\1.PNG", 15000L);
+			Pattern vpn1 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\1.PNG");
 			tela.click(vpn1);
-			Pattern vpn2 = new Pattern("C:\\Sikuli\\VPN\\2.PNG");
-			tela.wait("C:\\Sikuli\\VPN\\2.PNG", 15000L);
+			Pattern vpn2 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\2.PNG");
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\2.PNG", 15000L);
 			tela.click(vpn2);
-			Pattern vpn3 = new Pattern("C:\\Sikuli\\VPN\\3.PNG");
-			tela.wait("C:\\Sikuli\\VPN\\3.PNG", 15000L);
+			Pattern vpn3 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\3.PNG");
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\3.PNG", 15000L);
 			tela.click(vpn3);
-			Pattern vpn4 = new Pattern("C:\\Sikuli\\VPN\\4.PNG");
-			tela.wait("C:\\Sikuli\\VPN\\4.PNG", 15000L);
+			Pattern vpn4 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\4.PNG");
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\4.PNG", 15000L);
 			tela.click(vpn4);
-			Pattern vpn5 = new Pattern("C:\\Sikuli\\VPN\\5.PNG");
-			tela.wait("C:\\Sikuli\\VPN\\5.PNG", 15000L);
+			Pattern vpn5 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\5.PNG");
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\5.PNG", 15000L);
 			tela.click(vpn5);
-			Pattern vpn6 = new Pattern("C:\\Sikuli\\VPN\\8.PNG");
-			Thread.sleep(2000L);
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\9.PNG", 15000L);
+			Pattern vpn6 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\VPN\\8.PNG");
 			tela.click(vpn6);
 			
 			//Abre páginas no Chrome
-			Pattern p5 = new Pattern("C:\\Sikuli\\BeginTheDay\\5.PNG");
+			Pattern p5 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\5.PNG");
 			tela.click(p5);
-			Pattern p6 = new Pattern("C:\\Sikuli\\BeginTheDay\\6.PNG");
-			tela.wait("C:\\Sikuli\\BeginTheDay\\6.PNG", 15000L);
+			Pattern p6 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\6.PNG");
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\6.PNG", 15000L);
 			tela.click(p6);
-			Pattern p11 = new Pattern("C:\\Sikuli\\BeginTheDay\\11.PNG");
-			tela.wait("C:\\Sikuli\\BeginTheDay\\11.PNG", 15000L);
+			Pattern p11 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\11.PNG");
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\11.PNG", 15000L);
 			tela.click(p11);
 			Thread.sleep(1000L);
 			tela.type("t", Key.CTRL);
-			Pattern p7 = new Pattern("C:\\Sikuli\\BeginTheDay\\7.PNG");
+			Pattern p7 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\7.PNG");
 			tela.click(p7);
 			
 			//Abre pasta do SIGMS
-			Pattern p8 = new Pattern("C:\\Sikuli\\BeginTheDay\\8.PNG");
+			Pattern p8 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\8.PNG");
 			tela.click(p8);
-			Pattern p9 = new Pattern("C:\\Sikuli\\BeginTheDay\\9.PNG");
-			tela.wait("C:\\Sikuli\\BeginTheDay\\9.PNG", 15000L);
+			Pattern p9 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\9.PNG");
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\9.PNG", 15000L);
 			tela.click(p9);
 			
 			//Abre Slack
 			tela.type("d", Key.WIN);
 			tela.type(Key.WIN);
-			Thread.sleep(1000L);
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\14.PNG", 15000L);
 			tela.type("slack");
-			Pattern p10 = new Pattern("C:\\Sikuli\\BeginTheDay\\10.PNG");
-			tela.wait("C:\\Sikuli\\BeginTheDay\\10.PNG", 15000L);
+			Pattern p10 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\10.PNG");
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\10.PNG", 15000L);
 			tela.click(p10);
-			Pattern p12 = new Pattern("C:\\Sikuli\\BeginTheDay\\12.PNG");
-			tela.wait("C:\\Sikuli\\BeginTheDay\\12.PNG", 15000L);
+			Pattern p12 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\12.PNG");
+			tela.wait("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\12.PNG", 15000L);
 			tela.click(p12);
 			tela.type("d", Key.WIN);
 			
 			//Abre Outlook
-			Pattern p4 = new Pattern("C:\\Sikuli\\BeginTheDay\\4.PNG");
+			Pattern p4 = new Pattern("C:\\Users\\ademirgarcia\\Documents\\Workspace_Sikuli\\Sikuli\\images\\BeginTheDay\\4.PNG");
 			tela.click(p4);
-			Thread.sleep(4000L);
 		
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
